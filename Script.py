@@ -216,9 +216,9 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>{file_name}
 
-<b> Size ⚙️: {file_size}</b>""" 
+<b>💢 ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ :<a href='https://t.me/JISSHU_BOTS'>JISSHU_BOTS</a></b>""" 
 
     IMDB_TEMPLATE_TXT = """
 IMDb Data:
@@ -227,9 +227,7 @@ IMDb Data:
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-
-Requested by : {message.from_user.mention}</b>"""
+⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
