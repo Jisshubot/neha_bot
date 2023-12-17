@@ -1355,7 +1355,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
+            InputMediaPhoto(random.choice(PICS_JOIN))
         )
         await query.message.edit_text(
             text=script.JOINUPDATES_TXT.format(query.from_user.mention),
