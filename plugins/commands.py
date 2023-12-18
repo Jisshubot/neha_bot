@@ -1122,9 +1122,6 @@ async def stop_button(bot, message):
     await msg.edit("**♻️ Restarted Successfully! 🎉**")
     os.execl(sys.executable, sys.executable, *sys.argv)
 
-@Client.on_message(filters.command("alive") & filters.incoming)
-async def alive(client, message):
-    if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
-        buttons = [[
-                     InlineKeyboardButton('🍀 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🍀', callback_data='JoinUᴘᴅᴀᴛᴇs')
-                  ]]
+@Client.on_message(filters.command("alive")
+async def alive(bot, message):
+    return await message.reply_text(f"<b>Hey Give me a keyword along with the command to delete files.</b>")
