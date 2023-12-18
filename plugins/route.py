@@ -23,7 +23,37 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.json_response(index.html)
+    return web.json_response(<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hsk Dev</title>
+    <style>
+        /* Add your CSS styles for the chatbot title and image here */
+        /* Example styles for the title */
+        .chatbot-title {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+            color: black;
+        }
+
+        /* Example styles for the image */
+        .chatbot-image {
+            display: block;
+            margin: 0 auto;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Image above the chatbot title -->
+    <img src="images/IMG_20231110_113818_220.jpg" alt="elitecraftstudios" class="chatbot-image">
+
+    <!-- Chatbot title -->
+    <h1 class="chatbot-title"><a href="https://t.me/+pKK1_6ntt7MwMzA8">Hsk Dev</a></h1>
+    <h1 class="chatbot-title"><a href="https://t.me/+pKK1_6ntt7MwMzA8">Hsk jissu</a></h1>
+
+</body></html>)
 
 
 @routes.get(r"/watch/{path:\S+}", allow_head=True)
