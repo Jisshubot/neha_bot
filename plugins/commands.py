@@ -1123,13 +1123,8 @@ async def stop_button(bot, message):
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 @Client.on_message(filters.command("alive") & filters.incoming)
-async def start(client, message):
+async def alive(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('🔍 Gʀᴏᴜᴘ', url="https://t.me/+sJOCf7vp4sdhM2Vl"),
-                    InlineKeyboardButton('🎬 channel', url='https://t.me/+Fxa4IrH6obY4MWFl')
-                ],[
-                    InlineKeyboardButton('🍀 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🍀', callback_data='JoinUᴘᴅᴀᴛᴇs')
+                     InlineKeyboardButton('🍀 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🍀', callback_data='JoinUᴘᴅᴀᴛᴇs')
                   ]]
