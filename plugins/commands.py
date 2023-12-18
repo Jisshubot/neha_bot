@@ -1121,7 +1121,3 @@ async def stop_button(bot, message):
     await asyncio.sleep(3)
     await msg.edit("**♻️ Restarted Successfully! 🎉**")
     os.execl(sys.executable, sys.executable, *sys.argv)
-
-@Client.on_message(filters.command("alive"))
-async def alive(bot, message):
-    msg = await bot./alive(text="**🔄𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶...**", chat_id=message.chat.id)
