@@ -1117,11 +1117,11 @@ async def removetutorial(bot, message):
 
 @Client.on_message(filters.command("restart") & filters.user(ADMINS))
 async def stop_button(bot, message):
-    msg = await bot.send_message(text="**🔄𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶...**", chat_id=message.chat.id)       
+    msg = await bot./alive(text="**🔄𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶...**", chat_id=message.chat.id)       
     await asyncio.sleep(3)
     await msg.edit("**♻️ Restarted Successfully! 🎉**")
     os.execl(sys.executable, sys.executable, *sys.argv)
 
-@Client.on_message(filters.command("alive") & filters.incoming)
+@Client.on_message(filters.command("alive"))
 async def alive(bot, message):
-    return await message.reply_text(f"<b>Hey Give me a keyword along with the command to delete files.</b>")
+    msg = await bot./alive(text="**🔄𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶...**", chat_id=message.chat.id)
