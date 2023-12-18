@@ -8,13 +8,13 @@ from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import Client, filters
 
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('✨ Made By ✨', url='https://t.me/TG_BOTS_CHANNEL')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('✨ Made By ✨', url='https://t.me/JISSHU_BITS')]])
 A = """{} with user id:- {} used /git command."""
 
 @Client.on_message(filters.command(["github", "git"]))
 async def getgithub(bot, message):
     if len(message.command) != 2:
-        await message.reply_text("/github Username \n\n Like:- `/github Filter`", quote=True)
+        await message.reply_text("/github Username \n\n Like:- `/github Jisshubot`", quote=True)
         return
     await message.reply_chat_action(enums.ChatAction.TYPING)
     k = await message.reply_text("**Processing...⏳**", quote=True)    
@@ -46,7 +46,7 @@ async def getgithub(bot, message):
 **Followers:** `{followers}`
 **Following:** `{following}`
 
-**@TG_BOTS_CHANNEL **"""
+**@IM_JISSHU **"""
     await message.reply_photo(photo=avatar_url, caption=capy, reply_markup=BUTTONS)
     await bot.send_message(LOG_CHANNEL, A.format(message.from_user.mention, message.from_user.id)) 
     await k.delete()
