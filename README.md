@@ -1,11 +1,14 @@
 <p align="center">
+<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
+  
   <img src="https://graph.org/file/29c714c26e0df52fa7477.jpg" alt="ROSE BUCKET Logo">
+  <img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
 <h1 align="center">
  JISSHU-BOT 
 </h1>
-  
-## developers
-  
+<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
+
+
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝑊𝑒𝑙𝑐𝑜𝑚𝑒+𝑇𝑜+ZISHAN-Bot;𝐴+𝑠𝑖𝑚𝑝𝑙𝑒+𝑎𝑛𝑑+𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙+𝐵𝑜𝑡!;𝐼𝑛𝑑𝑒𝑥𝑒𝑠+𝐹𝑖𝑙𝑒𝑠+𝑎𝑏𝑜𝑣𝑒+2𝐺𝐵;𝐴+𝐵𝑜𝑡+𝑤𝑖𝑡ℎ+𝑑𝑜𝑢𝑏𝑙𝑒+𝑏𝑢𝑡𝑡𝑜𝑛!;𝑆𝑡𝑎𝑟𝑡+𝑚𝑒𝑠𝑠𝑎𝑔𝑒+𝑤𝑖𝑡ℎ+𝑝𝑖𝑐!;𝐴𝑛𝑑+𝑚𝑜𝑟𝑒+𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠!)
 </p>
 
@@ -14,12 +17,14 @@
 |<img width="80" src="https://graph.org/file/981a8994f41e5c959286e.jpg">|<img width="80" src="https://graph.org/file/bc6c02c7f17cd7bd779fb.jpg">|
 |:---:|:---:|
 |[`JISSHU-BOTS`](https://github.com/Jisshubot)|[`ALIYA KHAN`](https://github.com/Jisshubot)|[
-### Support
+<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
 
+### Support
 - Join JISSHU BOTS channel
   </br>
   <a href="https://telegram.im/JISSHU_BOTS"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 
+<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
 
 ## 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠
  hai 
@@ -67,6 +72,8 @@
 
 <b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://telegram.dog/JISSHU_BOTS'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
 
+<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
+
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 ```
 start - 𝑇𝑜 𝑠𝑡𝑎𝑟𝑡 𝑡ℎ𝑒 𝑏𝑜𝑡
@@ -108,6 +115,7 @@ delg - 𝑇𝑜 𝑑𝑒𝑙𝑒𝑡𝑒 𝑎 𝑠𝑝𝑒𝑐𝑖𝑓𝑖𝑐 �
 delallg - 𝑇𝑜 𝑑𝑒𝑙𝑒𝑡𝑒 𝑎𝑙𝑙 𝑔𝑙𝑜𝑏𝑎𝑙 𝑓𝑖𝑙𝑡𝑒𝑟𝑠 𝑓𝑟𝑜𝑚 𝑡ℎ𝑒 𝑏𝑜𝑡'𝑠 𝑑𝑎𝑡𝑎𝑏𝑎𝑠𝑒.
 deletefiles - 𝑇𝑜 𝑑𝑒𝑙𝑒𝑡𝑒 𝑃𝑟𝑒𝐷𝑉𝐷 𝑎𝑛𝑑 𝐶𝑎𝑚𝑅𝑖𝑝 𝐹𝑖𝑙𝑒𝑠 𝑓𝑟𝑜𝑚 𝑡ℎ𝑒 𝑏𝑜𝑡'𝑠 𝑑𝑎𝑡𝑎𝑏𝑎𝑠𝑒.
 ```
+<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
 
 ## Variables
 
@@ -125,6 +133,8 @@ deletefiles - 𝑇𝑜 𝑑𝑒𝑙𝑒𝑡𝑒 𝑃𝑟𝑒𝐷𝑉𝐷 𝑎�
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
 * Check [info.py](https://github.com/Jisshubot/JISSHU_BOT/blob/main/info.py) for more optional variables
+
+<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
 
 <details><summary>Deploy To Render</summary>
 <br>
@@ -169,8 +179,9 @@ python3 bot.py
 </p>
 </details>
 
-<hr>
 
+
+<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
 
 ## Thanks to ⚡
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
@@ -178,6 +189,8 @@ python3 bot.py
  - Thanks To [JISSHU-BOT](https://youtube.com)
  - Thanks To ALIYA 
  - Thanks To template redesigned by ELITECRAFT STUDIOS
+
+<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
 
 ## Note 🏷️
  
@@ -188,13 +201,11 @@ python3 bot.py
 
 Fork the repo and edit as per your needs.
 
-## Disclaimer
-[![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/EvamariaTG/evamaria/blob/master/LICENSE)
-Selling The Codes To Other People For Money Is *Strictly Prohibited*.
-
+<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
 
 python3 bot.py
 </pre>
 </p>
 </details>
+
+<img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
