@@ -2,6 +2,7 @@
 import time
 import random
 from pyrogram import Client, filters
+from info import PICS
 
 CMD = ["/", "."]
 
