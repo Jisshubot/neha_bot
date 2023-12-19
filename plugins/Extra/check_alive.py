@@ -12,6 +12,10 @@ CMD = ["/", "."]
 async def check_alive(_, message):
     await message.reply_text("𝖡𝗎𝖽𝖽𝗒 𝖨 𝖺𝗆 𝖠𝗅𝗂𝗏𝖾 :) 𝖧𝗂𝗍 /start.\n\n𝖧𝗂𝗍 /group_rule 𝖥𝗈𝗋 Group Rules\n\n𝖧𝗂𝗍 /ping 𝖳𝗈 𝖢𝗁𝖾𝖼𝗄 𝖡𝗈𝗍 𝖯𝗂𝗇𝗀 😉")
 
+@Client.on_message(filters.command("group_rule", CMD))
+async def check_alive(_, message):
+    await message.reply_text("𝖡𝗎𝖽𝖽𝗒 𝖨 𝖺𝗆 𝖠𝗅𝗂𝗏𝖾 :) 𝖧𝗂𝗍 /start.\n\n𝖧𝗂𝗍 /group_rule 𝖥𝗈𝗋 Group Rules\n\n𝖧𝗂𝗍 /ping 𝖳𝗈 𝖢𝗁𝖾𝖼𝗄 𝖡𝗈𝗍 𝖯𝗂𝗇𝗀 😉")
+
 
 @Client.on_message(filters.command("ping", CMD))
 async def ping(_, message):
