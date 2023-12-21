@@ -48,7 +48,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Zishan:Zishan@cluster0.jiljdqf.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Aliya:Aliya@cluster0.c4zdn3j.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -66,7 +66,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+Fxa4IrH6obY4MWFl')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MAPOriginal')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002004762163'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001864434358'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movie_fo')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
@@ -105,8 +105,8 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://jisshu-bots-d8sw.onrender.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
-    "https://jisshu-bots-d8sw.onrender.com/".format(FQDN, PORT)
+URL = "https://jishan202-hnao.onrender.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
+    "https://jishan202-hnao.onrender.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
@@ -121,9 +121,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://jisshu-bots-d8sw.onrender.com/".format(FQDN)
+    URL = "https://jishan202-hnao.onrender.com/".format(FQDN)
 else:
-    URL = "https://jisshu-bots-d8sw.onrender.com/".format(FQDN)
+    URL = "https://jishan202-hnao.onrender.com/".format(FQDN)
 
 
 
